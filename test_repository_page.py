@@ -9,6 +9,7 @@ from .pages.login_page import LoginPage
 from .pages.repository_page import RepositoryPage
 from .pages.repository_settings_page import RepositorySettingPage
 from .pages.locators import CreateRepositoryPageLocators, RepositorySettingsPageLocators
+from pages.base_page import logger_expect_no_error
 from configs import config
 
 
@@ -36,8 +37,8 @@ class TestRepositoryPage:
         repository_setting_page.open()
         repository_setting_page.delete_the_repository()
 
-    @allure.severity(allure.severity_level.MINOR)
     @pytest.mark.add_readme
+    @logger_expect_no_error
     def test_user_can_add_readme_file(self, browser, prepare_new_repository_delete):
         repository_name = prepare_new_repository_delete
         repository_page_url = RepositoryPageLocators.generate_repository_page_url_by_name(

@@ -7,6 +7,7 @@ from .pages.repository_page import RepositoryPage
 from .pages.create_repository_page import CreateRepositoryPage
 from .pages.repository_settings_page import RepositorySettingPage
 from configs import config
+from .pages.base_page import logger_expect_no_error
 
 
 # @pytest.mark.creating_repository
@@ -34,8 +35,8 @@ class TestRepositorySettingsPage:
         repository_setting_page.open()
         repository_setting_page.delete_the_repository()
 
-    @allure.severity(allure.severity_level.NORMAL)
     @pytest.mark.rename_repository
+    @logger_expect_no_error
     def test_user_can_rename_repository(self, browser, prepare_new_repository_delete):
         repository_name = prepare_new_repository_delete
         rep_settings_url = RepositorySettingsPageLocators.create_rep_settings_url(

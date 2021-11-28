@@ -10,13 +10,14 @@ from .pages.repositories_page import RepositoriesPage
 from .pages.create_repository_page import CreateRepositoryPage
 from .pages.repository_settings_page import RepositorySettingPage
 from configs import config
-
+from .pages.base_page import logger_expect_no_error
+from .pages.base_page import logger
 
 @allure.severity(allure.severity_level.NORMAL)
 class TestLogInCreateDeleteRepository:
     @pytest.fixture(scope="function", autouse=True)
     def setup(self, browser):
-        print("Start sign in operation")
+        logger.info("Start signing in")
         login_page_url = LoginPageLocators.LOGIN_PAGE_URL
         login_page = LoginPage(browser, login_page_url)
         login_page.open()
@@ -24,7 +25,7 @@ class TestLogInCreateDeleteRepository:
         main_page = MainPage(browser, MainPageLocators.MAIN_PAGE_URL)
         main_page.open()
         main_page.should_be_authorized_user()
-        print("Signed in")
+        logger.info("Signed in")
 
     @pytest.fixture(scope="function", autouse=False)
     def prepare_new_repository_delete(self, browser):
@@ -58,13 +59,13 @@ class TestLogInCreateDeleteRepository:
         new_repository_page.create_new_repository(self.unique_rep_name)
         yield self.unique_rep_name
 
-    @allure.severity(allure.severity_level.BLOCKER)
     @pytest.mark.correct_user_is_logged_in
+    @logger_expect_no_error
     def test_user_should_be_authorized(self, browser):
         pass
 
-    @allure.severity(allure.severity_level.CRITICAL)
     @pytest.mark.create_repository
+    @logger_expect_no_error
     def test_user_can_create_repository(self, browser, delete_repository_after_creating_test):
         main_page_url = MainPageLocators.MAIN_PAGE_URL
         main_page = MainPage(browser, main_page_url)
@@ -78,8 +79,8 @@ class TestLogInCreateDeleteRepository:
         repository_page.should_have_repository_correct_name(self.unique_rep_name)
         res = delete_repository_after_creating_test
 
-    @allure.severity(allure.severity_level.NORMAL)
     @pytest.mark.delete_repository
+    @logger_expect_no_error
     def test_user_can_delete_repository(self, browser, create_repository_before_deleting_test):
         repository_name = create_repository_before_deleting_test
         repositories_page_url = RepositoriesPageLocators.generate_repositories_page_url()
@@ -95,7 +96,7 @@ class TestLogInCreateDeleteRepository:
         main_page.open()
         main_page.should_not_be_repository_link_by_name(repository_name)
 
-    @allure.severity(allure.severity_level.NORMAL)
+    @logger_expect_no_error
     def test_user_can_go_to_repository_page(self, browser, prepare_new_repository_delete):
         repository_name = prepare_new_repository_delete
         repository_page_url = RepositoryPageLocators.generate_repository_page_url_by_name(
@@ -104,7 +105,7 @@ class TestLogInCreateDeleteRepository:
         repository_page.open()
         repository_page.should_have_repository_correct_name(repository_name)
 
-    @allure.severity(allure.severity_level.NORMAL)
+    @logger_expect_no_error
     def test_user_can_go_repositories_page(self, browser):
         main_page_url = MainPageLocators.MAIN_PAGE_URL
         main_page = MainPage(browser, main_page_url)

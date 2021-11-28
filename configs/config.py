@@ -1,5 +1,6 @@
-login = "TA-user"
-password = "TAInternship11"
+# Please Insert credentials below for access to github.com:
+login = "Here should be login for sign in github.com"
+password = "Here should be password for sign in github.com"
 timeout = 4
 
 dct1 = {

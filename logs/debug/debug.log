@@ -1,0 +1,215 @@
+21-11-28 17:29:12 INFO   start chrome browser for test.. 
+21-11-28 17:29:13 INFO   Start signing in 
+21-11-28 17:29:15 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:29:15 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:29:18 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:29:19 INFO   function -- is_element_present             --parameters args: ('css selector', 'div:nth-child(7) > details')  
+21-11-28 17:29:19 INFO   function -- is_user_authorized             --parameters args: ()  
+21-11-28 17:29:19 INFO   Signed in 
+21-11-28 17:29:19 INFO   Start TEST function -- test_user_should_be_authorized --parameters args: ()  
+21-11-28 17:29:19 ERROR  TEST function -- test_user_should_be_authorized -- parameters args: () -- test_user_should_be_authorized() missing 1 required positional argument: 'browser' 
+21-11-28 17:29:19 INFO   Close browser 
+21-11-28 17:29:19 INFO   start chrome browser for test.. 
+21-11-28 17:29:20 INFO   Start signing in 
+21-11-28 17:29:23 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:29:23 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:29:24 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:29:26 INFO   function -- is_element_present             --parameters args: ('css selector', 'div:nth-child(7) > details')  
+21-11-28 17:29:26 INFO   function -- is_user_authorized             --parameters args: ()  
+21-11-28 17:29:26 INFO   Signed in 
+21-11-28 17:29:26 INFO   Start TEST function -- test_user_can_create_repository --parameters args: ()  
+21-11-28 17:29:26 ERROR  TEST function -- test_user_can_create_repository -- parameters args: () -- test_user_can_create_repository() missing 2 required positional arguments: 'browser' and 'delete_repository_after_creating_test' 
+21-11-28 17:29:26 INFO   Close browser 
+21-11-28 17:29:26 INFO   start chrome browser for test.. 
+21-11-28 17:29:28 INFO   Start signing in 
+21-11-28 17:29:30 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:29:30 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:29:33 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:29:34 INFO   function -- is_element_present             --parameters args: ('css selector', 'div:nth-child(7) > details')  
+21-11-28 17:29:34 INFO   function -- is_user_authorized             --parameters args: ()  
+21-11-28 17:29:34 INFO   Signed in 
+21-11-28 17:29:34 INFO   Start TEST function -- test_user_can_delete_repository --parameters args: ()  
+21-11-28 17:29:34 ERROR  TEST function -- test_user_can_delete_repository -- parameters args: () -- test_user_can_delete_repository() missing 2 required positional arguments: 'browser' and 'create_repository_before_deleting_test' 
+21-11-28 17:29:34 INFO   Close browser 
+21-11-28 17:29:34 INFO   start chrome browser for test.. 
+21-11-28 17:29:35 INFO   Start signing in 
+21-11-28 17:29:38 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:29:38 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:29:39 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:29:41 INFO   function -- is_element_present             --parameters args: ('css selector', 'div:nth-child(7) > details')  
+21-11-28 17:29:41 INFO   function -- is_user_authorized             --parameters args: ()  
+21-11-28 17:29:41 INFO   Signed in 
+21-11-28 17:29:41 INFO   Start TEST function -- test_user_can_go_to_repository_page --parameters args: ()  
+21-11-28 17:29:41 ERROR  TEST function -- test_user_can_go_to_repository_page -- parameters args: () -- test_user_can_go_to_repository_page() missing 2 required positional arguments: 'browser' and 'prepare_new_repository_delete' 
+21-11-28 17:29:41 INFO   Close browser 
+21-11-28 17:29:41 INFO   start chrome browser for test.. 
+21-11-28 17:29:42 INFO   Start signing in 
+21-11-28 17:29:44 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:29:45 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:29:48 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:29:48 INFO   function -- is_element_present             --parameters args: ('css selector', 'div:nth-child(7) > details')  
+21-11-28 17:29:48 INFO   function -- is_user_authorized             --parameters args: ()  
+21-11-28 17:29:48 INFO   Signed in 
+21-11-28 17:29:48 INFO   Start TEST function -- test_user_can_go_repositories_page --parameters args: ()  
+21-11-28 17:29:48 ERROR  TEST function -- test_user_can_go_repositories_page -- parameters args: () -- test_user_can_go_repositories_page() missing 1 required positional argument: 'browser' 
+21-11-28 17:29:48 INFO   Close browser 
+21-11-28 17:29:48 INFO   start chrome browser for test.. 
+21-11-28 17:29:52 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:29:52 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:29:55 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:29:56 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#repository_name')  
+21-11-28 17:29:59 INFO   function -- do_click_waiting_active_element --parameters args: ('css selector', '#new_repository > div.js-with-permission-fields > button')  
+21-11-28 17:30:01 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "[href*='?readme=']")  
+21-11-28 17:30:14 INFO   function -- is_element_present             --parameters args: ('css selector', '.CodeMirror')  
+21-11-28 17:30:27 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', '#submit-file')  
+21-11-28 17:30:28 INFO   function -- is_element_present             --parameters args: ('css selector', "[href$='README.md']")  
+21-11-28 17:30:29 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', '.color-border-danger li:nth-child(4) summary')  
+21-11-28 17:30:29 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', 'ul > li:nth-child(4) > details  p:nth-child(2) > strong')  
+21-11-28 17:30:29 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', 'li:nth-child(4) form>p>input')  
+21-11-28 17:30:30 INFO   function -- do_click_waiting_active_element --parameters args: ('css selector', 'li:nth-child(4)  .d-md-inline-block')  
+21-11-28 17:30:30 INFO   Close browser 
+21-11-28 17:30:30 INFO   start chrome browser for test.. 
+21-11-28 17:30:34 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:30:34 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:30:36 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:30:36 INFO   Start TEST function -- test_user_can_rename_repository --parameters args: ()  
+21-11-28 17:30:36 ERROR  TEST function -- test_user_can_rename_repository -- parameters args: () -- test_user_can_rename_repository() missing 2 required positional arguments: 'browser' and 'prepare_new_repository_delete' 
+21-11-28 17:30:36 INFO   Close browser 
+21-11-28 17:34:13 INFO   start chrome browser for test.. 
+21-11-28 17:34:13 INFO   start chrome browser for test.. 
+21-11-28 17:34:14 INFO   Start signing in 
+21-11-28 17:34:14 INFO   Start signing in 
+21-11-28 17:34:17 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:34:17 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:34:17 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:34:17 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:34:20 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:34:20 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:34:21 INFO   function -- is_element_present             --parameters args: ('css selector', 'div:nth-child(7) > details')  
+21-11-28 17:34:21 INFO   function -- is_element_present             --parameters args: ('css selector', 'div:nth-child(7) > details')  
+21-11-28 17:34:21 INFO   function -- is_user_authorized             --parameters args: ()  
+21-11-28 17:34:21 INFO   function -- is_user_authorized             --parameters args: ()  
+21-11-28 17:34:21 INFO   Signed in 
+21-11-28 17:34:21 INFO   Signed in 
+21-11-28 17:34:21 INFO   Start TEST function -- test_user_should_be_authorized --parameters args: ()  
+21-11-28 17:34:21 INFO   Start TEST function -- test_user_should_be_authorized --parameters args: ()  
+21-11-28 17:34:21 ERROR  TEST function -- test_user_should_be_authorized -- parameters args: () -- test_user_should_be_authorized() missing 1 required positional argument: 'browser' 
+21-11-28 17:34:21 ERROR  TEST function -- test_user_should_be_authorized -- parameters args: () -- test_user_should_be_authorized() missing 1 required positional argument: 'browser' 
+21-11-28 17:34:21 INFO   Close browser 
+21-11-28 17:34:21 INFO   Close browser 
+21-11-28 17:34:21 INFO   start chrome browser for test.. 
+21-11-28 17:34:21 INFO   start chrome browser for test.. 
+21-11-28 17:34:22 INFO   Start signing in 
+21-11-28 17:34:22 INFO   Start signing in 
+21-11-28 17:34:25 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:34:25 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:34:25 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:34:25 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:34:28 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:34:28 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:34:29 INFO   function -- is_element_present             --parameters args: ('css selector', 'div:nth-child(7) > details')  
+21-11-28 17:34:29 INFO   function -- is_element_present             --parameters args: ('css selector', 'div:nth-child(7) > details')  
+21-11-28 17:34:29 INFO   function -- is_user_authorized             --parameters args: ()  
+21-11-28 17:34:29 INFO   function -- is_user_authorized             --parameters args: ()  
+21-11-28 17:34:29 INFO   Signed in 
+21-11-28 17:34:29 INFO   Signed in 
+21-11-28 17:34:29 INFO   Start TEST function -- test_user_can_create_repository --parameters args: ()  
+21-11-28 17:34:29 INFO   Start TEST function -- test_user_can_create_repository --parameters args: ()  
+21-11-28 17:34:29 ERROR  TEST function -- test_user_can_create_repository -- parameters args: () -- test_user_can_create_repository() missing 2 required positional arguments: 'browser' and 'delete_repository_after_creating_test' 
+21-11-28 17:34:29 ERROR  TEST function -- test_user_can_create_repository -- parameters args: () -- test_user_can_create_repository() missing 2 required positional arguments: 'browser' and 'delete_repository_after_creating_test' 
+21-11-28 17:34:29 INFO   Close browser 
+21-11-28 17:34:29 INFO   Close browser 
+21-11-28 17:34:29 INFO   start chrome browser for test.. 
+21-11-28 17:34:29 INFO   start chrome browser for test.. 
+21-11-28 17:34:30 INFO   Start signing in 
+21-11-28 17:34:30 INFO   Start signing in 
+21-11-28 17:34:33 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:34:33 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:34:33 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:34:33 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:34:35 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:34:35 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:34:35 INFO   function -- is_element_present             --parameters args: ('css selector', 'div:nth-child(7) > details')  
+21-11-28 17:34:35 INFO   function -- is_element_present             --parameters args: ('css selector', 'div:nth-child(7) > details')  
+21-11-28 17:34:35 INFO   function -- is_user_authorized             --parameters args: ()  
+21-11-28 17:34:35 INFO   function -- is_user_authorized             --parameters args: ()  
+21-11-28 17:34:35 INFO   Signed in 
+21-11-28 17:34:35 INFO   Signed in 
+21-11-28 17:34:35 INFO   Start TEST function -- test_user_can_delete_repository --parameters args: ()  
+21-11-28 17:34:35 INFO   Start TEST function -- test_user_can_delete_repository --parameters args: ()  
+21-11-28 17:34:35 ERROR  TEST function -- test_user_can_delete_repository -- parameters args: () -- test_user_can_delete_repository() missing 2 required positional arguments: 'browser' and 'create_repository_before_deleting_test' 
+21-11-28 17:34:35 ERROR  TEST function -- test_user_can_delete_repository -- parameters args: () -- test_user_can_delete_repository() missing 2 required positional arguments: 'browser' and 'create_repository_before_deleting_test' 
+21-11-28 17:34:35 INFO   Close browser 
+21-11-28 17:34:35 INFO   Close browser 
+21-11-28 17:34:36 INFO   start chrome browser for test.. 
+21-11-28 17:34:36 INFO   start chrome browser for test.. 
+21-11-28 17:34:37 INFO   Start signing in 
+21-11-28 17:34:37 INFO   Start signing in 
+21-11-28 17:34:39 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:34:39 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:34:39 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:34:39 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:34:42 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:34:42 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:34:44 INFO   function -- is_element_present             --parameters args: ('css selector', 'div:nth-child(7) > details')  
+21-11-28 17:34:44 INFO   function -- is_element_present             --parameters args: ('css selector', 'div:nth-child(7) > details')  
+21-11-28 17:34:44 INFO   function -- is_user_authorized             --parameters args: ()  
+21-11-28 17:34:44 INFO   function -- is_user_authorized             --parameters args: ()  
+21-11-28 17:34:44 INFO   Signed in 
+21-11-28 17:34:44 INFO   Signed in 
+21-11-28 17:34:44 INFO   Start TEST function -- test_user_can_go_to_repository_page --parameters args: ()  
+21-11-28 17:34:44 INFO   Start TEST function -- test_user_can_go_to_repository_page --parameters args: ()  
+21-11-28 17:34:44 ERROR  TEST function -- test_user_can_go_to_repository_page -- parameters args: () -- test_user_can_go_to_repository_page() missing 2 required positional arguments: 'browser' and 'prepare_new_repository_delete' 
+21-11-28 17:34:44 ERROR  TEST function -- test_user_can_go_to_repository_page -- parameters args: () -- test_user_can_go_to_repository_page() missing 2 required positional arguments: 'browser' and 'prepare_new_repository_delete' 
+21-11-28 17:34:44 INFO   Close browser 
+21-11-28 17:34:44 INFO   Close browser 
+21-11-28 17:34:44 INFO   start chrome browser for test.. 
+21-11-28 17:34:44 INFO   start chrome browser for test.. 
+21-11-28 17:34:45 INFO   Start signing in 
+21-11-28 17:34:45 INFO   Start signing in 
+21-11-28 17:34:47 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:34:47 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:34:47 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:34:47 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:34:49 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:34:49 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:34:51 INFO   function -- is_element_present             --parameters args: ('css selector', 'div:nth-child(7) > details')  
+21-11-28 17:34:51 INFO   function -- is_element_present             --parameters args: ('css selector', 'div:nth-child(7) > details')  
+21-11-28 17:34:51 INFO   function -- is_user_authorized             --parameters args: ()  
+21-11-28 17:34:51 INFO   function -- is_user_authorized             --parameters args: ()  
+21-11-28 17:34:51 INFO   Signed in 
+21-11-28 17:34:51 INFO   Signed in 
+21-11-28 17:34:51 INFO   Start TEST function -- test_user_can_go_repositories_page --parameters args: ()  
+21-11-28 17:34:51 INFO   Start TEST function -- test_user_can_go_repositories_page --parameters args: ()  
+21-11-28 17:34:51 ERROR  TEST function -- test_user_can_go_repositories_page -- parameters args: () -- test_user_can_go_repositories_page() missing 1 required positional argument: 'browser' 
+21-11-28 17:34:51 ERROR  TEST function -- test_user_can_go_repositories_page -- parameters args: () -- test_user_can_go_repositories_page() missing 1 required positional argument: 'browser' 
+21-11-28 17:34:51 INFO   Close browser 
+21-11-28 17:34:51 INFO   Close browser 
+21-11-28 17:34:51 INFO   start chrome browser for test.. 
+21-11-28 17:34:51 INFO   start chrome browser for test.. 
+21-11-28 17:34:55 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:34:55 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:34:55 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:34:55 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:34:58 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:34:58 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:34:58 INFO   Start TEST function -- test_user_can_add_readme_file  --parameters args: ()  
+21-11-28 17:34:58 INFO   Start TEST function -- test_user_can_add_readme_file  --parameters args: ()  
+21-11-28 17:34:58 ERROR  TEST function -- test_user_can_add_readme_file  -- parameters args: () -- test_user_can_add_readme_file() missing 2 required positional arguments: 'browser' and 'prepare_new_repository_delete' 
+21-11-28 17:34:58 ERROR  TEST function -- test_user_can_add_readme_file  -- parameters args: () -- test_user_can_add_readme_file() missing 2 required positional arguments: 'browser' and 'prepare_new_repository_delete' 
+21-11-28 17:34:58 INFO   Close browser 
+21-11-28 17:34:58 INFO   Close browser 
+21-11-28 17:34:58 INFO   start chrome browser for test.. 
+21-11-28 17:34:58 INFO   start chrome browser for test.. 
+21-11-28 17:35:02 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:35:02 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#login_field')  
+21-11-28 17:35:02 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:35:02 INFO   function -- find_element_expl_waiting      --parameters args: ('css selector', '#password')  
+21-11-28 17:35:03 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:35:03 INFO   function -- do_click_explicit_waiting      --parameters args: ('css selector', "input[type='submit']")  
+21-11-28 17:35:03 INFO   Start TEST function -- test_user_can_rename_repository --parameters args: ()  
+21-11-28 17:35:03 INFO   Start TEST function -- test_user_can_rename_repository --parameters args: ()  
+21-11-28 17:35:03 ERROR  TEST function -- test_user_can_rename_repository -- parameters args: () -- test_user_can_rename_repository() missing 2 required positional arguments: 'browser' and 'prepare_new_repository_delete' 
+21-11-28 17:35:03 ERROR  TEST function -- test_user_can_rename_repository -- parameters args: () -- test_user_can_rename_repository() missing 2 required positional arguments: 'browser' and 'prepare_new_repository_delete' 
+21-11-28 17:35:03 INFO   Close browser 
+21-11-28 17:35:03 INFO   Close browser 

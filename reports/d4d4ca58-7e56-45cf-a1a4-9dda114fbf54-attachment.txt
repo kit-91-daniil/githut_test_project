@@ -1,6 +1,0 @@
-
-start chrome browser for test..
-Start sign in operation
-Signed in
-
-quit browser..
