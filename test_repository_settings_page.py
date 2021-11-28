@@ -1,6 +1,4 @@
 import pytest
-import allure
-from allure_commons.types import AttachmentType
 from .pages.locators import LoginPageLocators, CreateRepositoryPageLocators, RepositorySettingsPageLocators
 from .pages.login_page import LoginPage
 from .pages.repository_page import RepositoryPage
@@ -10,7 +8,6 @@ from configs import config
 from .pages.base_page import logger_expect_no_error
 
 
-# @pytest.mark.creating_repository
 class TestRepositorySettingsPage:
     @pytest.fixture(scope="function", autouse=True)
     def setup(self, browser):
@@ -47,4 +44,3 @@ class TestRepositorySettingsPage:
         repository_page = RepositoryPage(browser, browser.current_url)
         repository_page.open()
         repository_page.should_have_repository_correct_name(new_rep_name)
-

@@ -1,10 +1,7 @@
 import pytest
-import allure
-from allure_commons.types import AttachmentType
-from .pages.main_page import MainPage
 from .pages.code_editor_page import CodeEditorPage
 from .pages.create_repository_page import CreateRepositoryPage
-from .pages.locators import MainPageLocators, LoginPageLocators, RepositoryPageLocators
+from .pages.locators import LoginPageLocators, RepositoryPageLocators
 from .pages.login_page import LoginPage
 from .pages.repository_page import RepositoryPage
 from .pages.repository_settings_page import RepositorySettingPage
@@ -52,8 +49,3 @@ class TestRepositoryPage:
         repository_page = RepositoryPage(browser, browser.current_url)
         repository_page.open()
         repository_page.should_be_file_link("README.md")
-
-
-
-
-
