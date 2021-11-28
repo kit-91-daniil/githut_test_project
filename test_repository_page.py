@@ -1,24 +1,29 @@
 import pytest
+from configs import config
+
 from .pages.code_editor_page import CodeEditorPage
 from .pages.create_repository_page import CreateRepositoryPage
-from .pages.locators import LoginPageLocators, RepositoryPageLocators
+from .pages.locators import LoginPageLocators, RepositoryPageLocators, MainPageLocators
 from .pages.login_page import LoginPage
+from .pages.main_page import MainPage
 from .pages.repository_page import RepositoryPage
 from .pages.repository_settings_page import RepositorySettingPage
 from .pages.locators import CreateRepositoryPageLocators, RepositorySettingsPageLocators
-from pages.base_page import logger_expect_no_error
-from configs import config
+from .pages.base_page import logger_expect_no_error, logger
 
 
 class TestRepositoryPage:
     @pytest.fixture(scope="function", autouse=True)
     def setup(self, browser):
-        print("Start sign in operation")
+        logger.info("Start signing in")
         login_page_url = LoginPageLocators.LOGIN_PAGE_URL
         login_page = LoginPage(browser, login_page_url)
         login_page.open()
-        login_page.sign_in()
-        print("Signed in")
+        assert login_page.sign_in(), "Login password were not send"
+        main_page = MainPage(browser, MainPageLocators.MAIN_PAGE_URL)
+        main_page.open()
+        main_page.should_be_authorized_user()
+        logger.info("Signed in")
 
     @pytest.fixture(scope="function", autouse=False)
     def prepare_new_repository_delete(self, browser):

@@ -4,14 +4,12 @@ from loguru import logger
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import NoAlertPresentException, TimeoutException
+from selenium.common.exceptions import TimeoutException
 from .locators import BasePageLocators
 
 
 logger.add("logs/debug/debug.log", format="{time:YY-MM-DD HH:mm:ss} {level:<6} {message} ",
            level="DEBUG", rotation="1 day", compression="zip")
-logger.add("logs/error/error.log", format="{time:YY-MM-DD HH:mm:ss} {level:<6} {message}",
-           level="ERROR", rotation="1 day", compression="zip")
 
 
 def logger_expect_true(function):
