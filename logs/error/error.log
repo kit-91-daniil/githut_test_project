@@ -1,4 +1,0 @@
-21-11-28 18:59:17 ERROR  TEST function -- test_user_can_add_readme_file  -- parameters args: () -- test_user_can_add_readme_file() missing 2 required positional arguments: 'browser' and 'prepare_new_repository_delete'
-21-11-28 18:59:17 ERROR  TEST function -- test_user_can_add_readme_file  -- parameters args: () -- test_user_can_add_readme_file() missing 2 required positional arguments: 'browser' and 'prepare_new_repository_delete'
-21-11-28 18:59:22 ERROR  TEST function -- test_user_can_rename_repository -- parameters args: () -- test_user_can_rename_repository() missing 2 required positional arguments: 'browser' and 'prepare_new_repository_delete'
-21-11-28 18:59:22 ERROR  TEST function -- test_user_can_rename_repository -- parameters args: () -- test_user_can_rename_repository() missing 2 required positional arguments: 'browser' and 'prepare_new_repository_delete'
