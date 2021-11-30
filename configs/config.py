@@ -1,12 +1,8 @@
 # Please Insert credentials below for access to github.com:
-login = "Here should be login for sign in github.com"
-password = "Here should be password for sign in github.com"
-timeout = 4
+# login = "Here should be login for sign in github.com"
+# password = "Here should be password for sign in github.com"
 
-dct1 = {
-    "Correct user is logged in": "correct_user_is_logged_in",
-    "Create repository": "create_repository",
-    "Rename repository": "rename_repository",
-    "Add README": "add_readme",
-    "Delete repository": "delete_repository",
-}
+class TestData:
+    LOGIN = "kit-91-daniil"
+    PASSWORD = "rzr64bck36"
+    timeout = 4

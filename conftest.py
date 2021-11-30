@@ -2,10 +2,10 @@ import allure
 import os
 import pytest
 
-from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-
-from .pages.base_page import logger
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
 
 
 def pytest_addoption(parser):
@@ -19,20 +19,17 @@ def browser(request):
     language = request.config.getoption("language")
     browser = None
     if browser_name == "chrome":
-        logger.info("start chrome browser for test..")
         options = Options()
         options.add_argument("--window-size=1400,1050")
         options.add_experimental_option('prefs', {'intl.accept_languages': language})
-        browser = webdriver.Chrome(options=options)
+        browser = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=options)
     elif browser_name == "firefox":
-        logger.info("\nstart firefox browser for test..")
         fp = webdriver.FirefoxProfile()
         fp.set_preference("intl.accept_languages", language)
-        browser = webdriver.Firefox(firefox_profile=fp)
+        browser = webdriver.Firefox(executable_path=GeckoDriverManager().install(), firefox_profile=fp)
     else:
         raise pytest.UsageError("--browser name should be chrome or firefox")
     yield browser
-    logger.info("Close browser")
     browser.quit()
 
 
