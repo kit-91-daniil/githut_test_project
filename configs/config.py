@@ -3,6 +3,6 @@
 # password = "Here should be password for sign in github.com"
 
 class TestData:
-    LOGIN = "kit-91-daniil"
-    PASSWORD = "rzr64bck36"
+    LOGIN = "Insert your github login here"
+    PASSWORD = "Insert your github password here"
     timeout = 4
